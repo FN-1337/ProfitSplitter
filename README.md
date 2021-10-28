@@ -54,27 +54,27 @@ Next, create the following functions:
 #### Test the contract
 
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`. Also ensure that you have 4 accounts ready to for the contract.
-![contract](Screenshots/gnache_acc.png)
+![contract](Screenshots/gnache_acc.PNG)
 
 Once you click deploy you will be charged with meta mask and if you are able to pay a green check mark should appear on remix
 
-![contract](Screenshots/succ.png)
+![contract](Screenshots/succ.PNG)
 
 You will need to fill in the constructor parameters with your designated `employee` addresses. Make sure the account that you deployed the contract with has enough ether to send to the other 3 accounts.
 
-![contract](Screenshots/deploying_contract.png)
+![contract](Screenshots/deploying_contract.PNG)
 
 Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of Ether to the contract and ensure the logic is executing properly. Sending 40 ether to the 3 associate employee accounts. 
 
-![contract](Screenshots/deposit.png)
+![contract](Screenshots/deposit.PNG)
 
 As you can see below we have subtracted 40 ether from the original account and split it between the 3 designated accounts. 
-![contract](Screenshots/gan_ether_split.png)
+![contract](Screenshots/gan_ether_split.PNG)
 
 
  As you can see you can also deploy the contract on the Ropsten network and as long as you have enough ether you can send some to the accounts designated at deployment using the same steps as above.
 
-![ropsten](Screenshots/rop_test.png)
+![ropsten](Screenshots/rop_test.PNG)
 
 ropsten contractID 0x16c3335d6bce1e39ce6604aee63bdc2f0dfc66ab71f90262dc4d57503f435c1b
-![ropsten](Screenshots/rop.png)
+![ropsten](Screenshots/rop.PNG)
