@@ -5,7 +5,7 @@ Profit splitter contract to Pay your Associate-level employees quickly and easil
 
 In this project my aim was to create a solidity contract that allowed me to evenly distribute payment to my associate level employees. Since there salary is only a base pay we can just send in the amount we need and let the contract evenly distribute payments. Below you can see first the contract deployed on my private ganache network and a payment of 40 ether split up between the 3 employees. After that we can see the contract deployed to the Ropsten network ready to be used. 
 
-### Starting the project
+### Starting the Project
 
 Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for above.
 
